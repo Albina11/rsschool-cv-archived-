@@ -4,19 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CV</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <a href="#About me">About me</a>
-            <a href="#Skills">Skills</a>
-            <a href="#Education">Education</a>
-            <a href="#Code Example">Code Example</a>
-            <a href="#Contacts">Contacts</a>
-           
-        </nav>
+    
+     <header class="header">
+         <div class="header-container">
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a href="#About-me">About me</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#Contacts">Contacts</a>
+                    </li>
+                    <li class="menu-item">  
+                        <a href="#Skills">Skills</a>
+                    </li> 
+                    <li class="menu-item">
+                        <a href="#Education">Education</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#Code-Example">Code Example</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#Languages">languages</a> 
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    <div id="wrapper">
+    <main class="main-container">
+        <div class="main-content-section">
+            <!-- About me section -->
+        <section class="about-me-section" >
+            <h2 class="about-me-profession">Front-End Developer </h2>
+                <h1 class="about-me-name">Albina Basova </h1>
+                    <p class="about-me-discription" id="About-me"></d >I am a beginner front-end developer.
+                        Now I am studying Java script,in the future I want to change my profession and develop websites.
+                        Graduated Master of Marketing I love to learn new things.
+                    </p>   
+        </section>
+            <!-- My PROJECTS-->
+        <section class="PROJECTS">
+                <h3 class="main-content-title"> PROJECTS </h3>
+                    <ul>
+                        <li>
+                            <a href="https://Albina11.github.io/rsschool-cv/">CV</a>  
+                        </li>                 
+                    </ul>
+         </section>
+        </div>
+            <!--  My education     -->
+            <section class="education">
+                <div class="My-education" id="Education">
+                        <h3 class="main-content-title">Education</h3>
+                    <!--education2-->
+                <div>
+                    <h4> RS School </h4>
+                        <p> student now</p>
+                </div>
+                <div>
+                    <h4 class="My-education-university">KHARKIV INSTITUTE OF TRADE AND ECONOMICS
+                                of Kyiv National University of Trade and Economics </h4>
+                    <p class="My-education-university-faculty">Marketing in 2018</p>
+                </div>
+                     <p class="My-education-university-faculty"> Management in 2017</p>
+                </div>
+            </section>
+            <section class="Code">
+                <div class="Code-Example" id="Code-Example">
+                    <h3>Code Example </h3>
+                    <pre>
+                        <code>
+                            function greet(){
+                                return "hello world!";
+                              }
+                              console.log(greet());
+                        </code>
+                    </pre>
+                </div>
+            </section>
+    </main>
+    <aside class="sidebar-container">
+        <section class="contacts">
+                <img class="photo-me" src="img/photo1.jpg"  alt="my photo">
+            <div class="contacts-section"  id="Contacts">
+                <h3 class="sidebar-title">Contacts</h3>
+               <div class="contacts-section-type">
+                    <ul>
+                        <li>
+                           <img class="logo" src="img/telegram.ico" alt="Telegram">
+                           <p>@Albina_Basova</p>
+                        </li>
+                        <li> 
+                            <img class="logo" src="img/discord.svg" alt="Discord">
+                            <p>Albina#2263</p>
+                        </li>
+                    </ul>
+               </div>
+            </div>
+        </section>
+            <section class="skills">
+            <!-- tech skills section -->
+            <div class="tech-skills-section" id="Skills">
+                <h3 class="sidebar-title">Tech Skills</h3>
+                <ul class="tech-skills-list">
+                    <li class="tech-skills-item"> <span class="skills-item-text">HTML </span> </li>
+                    <li class="tech-skills-item"> <span class="skills-item-text">CSS </span></li>
+                    <li class="tech-skills-item"> <span class="skills-item-text">JS </span></li>
+                </ul>
+            </div>
+            </section>
+        <section class="languages" id="Languages">
+            <div class="languages">
+                <h3>languages</h3>
+                <ol>
+                    <li>English (A2)</li>
+                    <li>Ukraine(C2)</li>
+                    <li>Russian(C2)</li>
+                </ol>
+            </div>
+        </section>
+    </aside>
+</div>
+    <footer class="footer-container">
+        <div class="rs-logo">
+        <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="RS logo"> </a>
+        </div>
+        <div class=" git-logo">
+            <a href="https://github.com/Albina11"> <img src="img/github_git_icon_145985.svg" alt="Git logo"></a>
+        </div>
+        <div class="year">
+            <p> &copy; 2021</p>
+        </div>
+    </footer>
 </body>
 </html>

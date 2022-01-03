@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    max-width: 1400px;
+    margin: 0; 
+    padding: 0;
+    background-color: rgb(59, 162, 175);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+    background: radial-gradient(#c7e9f1, #abc083);
+      }
+
+#wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.header-container{
+   
+    font: 20px bold;
+    margin-bottom: 20px;
+   
+   
+}
+.menu-list{
+    display: flex;
+    justify-content: right;
+    list-style-type: none
+    
+}
+.menu a{
+    margin: 5px;
+	padding: 10px;
+	text-decoration: none;
+	color: #1437AD;
+
+}
+.menu a:hover, .menu a.active {
+	color: rgb(250, 250, 250);
+	
+}
+h1{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.about-me-discription{
+    text-indent: 10px;
+    color: rgb(39, 36, 33);
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.PROJECTS{
+    padding: 10px;
+}
+.My-education{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.Code-Example{
+    padding: 10px;
+    margin-bottom: 10px;
+    color: rgb(23, 22, 24);
+}
+.about-me-profession{
+    margin-bottom: 10px;
+    text-align: start;
+    padding: 5px;
+}
+.sidebar-container{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.footer-container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.rs-logo{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+  
+}
+.git-logo{
+    width:50px;
+    height: 50px; 
+}
+.photo-me{
+    
+    width: 200px;
+    border-radius: 10%;
+    margin: 10px;
+}
+.contacts-section{
+    margin: 20px;
+}
+.sidebar-title{
+    font-size: 20px;
+    text-align: left;
+}
+.contacts p{
+    padding-left: 10px;
+    text-align: left;
+    font-size: 15px;
+    color: aliceblue;
+}
+.logo{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.tech-skills-section{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.languages{
+    padding-left: 10px;
+}
