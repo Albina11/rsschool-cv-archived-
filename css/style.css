@@ -9,19 +9,22 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    margin: 0; padding: 0;
+    max-width: 1400px;
+    margin: 0; 
+    padding: 0;
     background-color: rgb(59, 162, 175);
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 25px;
+    background: radial-gradient(#c7e9f1, #abc083);
       }
+
 #wrapper{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    max-width: 1200px;
 }
 .header-container{
-    border: 1px solid red;
+   
     font: 20px bold;
     margin-bottom: 20px;
    
@@ -59,7 +62,7 @@ h1{
 }
 .about-me-discription{
     text-indent: 10px;
-    color: antiquewhite;
+    color: rgb(39, 36, 33);
     text-align: justify;
     margin-bottom: 20px;
     font-size: 15px;
@@ -74,7 +77,7 @@ h1{
 .Code-Example{
     padding: 10px;
     margin-bottom: 10px;
-    color: aliceblue;
+    color: rgb(23, 22, 24);
 }
 .about-me-profession{
     margin-bottom: 10px;
@@ -85,12 +88,13 @@ h1{
     width: 500px;
     margin: 0 auto;
     padding: 20px;
+
 }
 .footer-container{
-    border: 1px solid red;
+    
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 10px;
     padding: 10px;
@@ -98,6 +102,7 @@ h1{
 .rs-logo{
     width: 50px;
     height: 50px;
+    padding-top: 10px;
   
 }
 .git-logo{
@@ -105,7 +110,7 @@ h1{
     height: 50px; 
 }
 .photo-me{
-    border: 1px solid red;
+    
     width: 200px;
     border-radius: 10%;
     margin: 10px;
